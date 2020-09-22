@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tarea 1 - Semana 2</string>
+
+    <string name="tietNombre">Nombre Completo</string>
+    <string name="tietSelectorDeFecha">Fecha De Nacimiento</string>
+    <string name="tietTelefono">Teléfono</string>
+    <string name="tietEmail">Email</string>
+    <string name="tietDescripcionDeContacto">Descripción Contacto</string>
+
+    <string name="textoBoton">Siguiente</string>
+    <string name="confirmarDatos">Confirmar Datos</string>
+    <string name="botonEditarDatos">Editar Datos</string>
+
+    <string name="pStringDeDatos">stringDeDatos</string>
+
+    <string name="tvNombre">Nombre: </string>
+    <string name="tvFecha">Fecha De Nacimiento: </string>
+    <string name="tvTelefono">Tel: </string>
+    <string name="tvEmail">Email: </string>
+    <string name="tvDescripcion">Descripción: </string>
+
+</resources>

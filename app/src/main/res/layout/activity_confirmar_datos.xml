@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmarDatos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margenVertical"
+        android:paddingLeft="@dimen/margenHorizontal"
+        android:paddingRight="@dimen/margenHorizontal"
+        android:paddingTop="@dimen/margenVertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmarDatos"
+            android:textSize="@dimen/titulo"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margenTitulo"
+            android:textSize="@dimen/textosSecundarios"/>
+
+        <TextView
+            android:id="@+id/tvFechaDeNacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margenTextoSecundario"
+            android:textSize="@dimen/textosSecundarios"/>
+
+        <TextView
+            android:id="@+id/tvTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margenTextoSecundario"
+            android:textSize="@dimen/textosSecundarios"/>
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margenTextoSecundario"
+            android:textSize="@dimen/textosSecundarios"/>
+
+        <TextView
+            android:id="@+id/tvDescripcionDeContacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margenTextoSecundario"
+            android:textSize="@dimen/textosSecundarios"/>
+
+        <Button
+            android:layout_width="@dimen/anchuraBoton"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margenBoton"
+            android:text="@string/botonEditarDatos"
+            android:onClick="miClickEditarDatos" />
+
+    </LinearLayout>
+
+</RelativeLayout>

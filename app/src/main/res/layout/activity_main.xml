@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margenVertical"
+        android:paddingLeft="@dimen/margenHorizontal"
+        android:paddingRight="@dimen/margenHorizontal"
+        android:paddingTop="@dimen/margenVertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tietNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tietNombre"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilSelectorDeFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tietSelectorDeFecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tietSelectorDeFecha"
+                android:inputType="date"
+                android:focusable="false"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tietEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tietEmail"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tietTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tietTelefono"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilDescripcionDeContacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/tietDescripcionDeContacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/tietDescripcionDeContacto"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/botonSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textoBoton"
+        android:layout_alignParentBottom="true"
+        android:onClick="miClickBotonSiguiente"
+
+        />
+
+</RelativeLayout>

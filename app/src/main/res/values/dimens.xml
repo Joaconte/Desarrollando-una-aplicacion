@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margenHorizontal">30dp</dimen>
+    <dimen name="margenVertical">15dp</dimen>
+    <dimen name="titulo">30dp</dimen>
+    <dimen name="margenTitulo">20dp</dimen>
+    <dimen name="margenTextoSecundario">7dp</dimen>
+    <dimen name="textosSecundarios">20dp</dimen>
+    <dimen name="anchuraBoton">200dp</dimen>
+    <dimen name="margenBoton">20dp</dimen>
+</resources>
